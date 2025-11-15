@@ -3,16 +3,16 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--بيخلي الصفحة متجاوبة على الهواتف (Responsive) من خلال ضبط العرض مع عرض الشاشة.-->
-    <title>Leon Template One</title>
-    <!-- main Template CSS file-->
-    <link rel="stylesheet" href="css/leon.css" />
-    <!--Render All Element Normally-->
+    <title>Kasper | Template Two</title>
+    <!--Render All Elements Normally-->
     <link rel="stylesheet" href="css/normalize.css" />
     <!--Font Awesome Library-->
     <link rel="stylesheet" href="css/all.min.css" />
-    <!--Google fontes-->
+    <!--Main Template CSS File-->
+    <link rel="stylesheet" href="css/Kasper.css" />
+    <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -21,205 +21,492 @@
 </head>
 
 <body>
-    <!--start header-->
-    <div class="header">
-        <div class="container">
-            <img class="logo" src="images/logo.png" alt="">
-            <div class="links">
-                <span class="icon"><!--يتكوّن من 3 شرطات أفقية باستخدام 3 عناصر <span> داخلية.-->
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </span>
+    <!--start Header-->
+    <header>
+        <div class="container"><!--container => بيمسك المحتوي في المنتصف-->
+            <a href="#" class="logo">
+                <img src="image/WhatsApp Image 2025-11-15 at 03.26.58_27ca56bb.jpg" alt="logo" width="460" height="530">
+            </a>
+            <nav>
+                <i class="fa-solid fa-bars toggle-menu"></i>
                 <ul>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#aAbout">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a class="active" href="#"></a>السلام عليكم  ورحمة الله وبركاته  د ا محمد عاطف</li>
+                    <li><a href="#mohamed atef"></a>mohamed atef</li>
+                    <li><a href="#mohamed atef"></a>mohamed atef</li>
+                    <li><a href="#mohamed atef"></a>mohamed atef</li>
+                    <li><a href="#mohamed atef"></a>mohamed atef</li>
+                    <li><a href="#mohamed atef">mohamed atef</a></li>
+                    <li><a href="#mohamed atef">mohamed atef</a></li>
+                    <li><a href="#mohamed atef">mohamed atef</a></li>
                 </ul>
-            </div>
+                <div class="form">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </nav>
         </div>
-    </div>
-    <!-- End Header -->
-    <!-- start Landing section -->
+    </header>
+    <!--End Header-->
+    <!--Start Landing -->
     <div class="landing">
-        <div class="intro-text">
-            <h1> اهلا وسهلا بيك دك محمد عاطف ازي حضرتك </h1>
-            <p>we are Leon - Super Creative & Minimal Agency web Template</p>
-        </div>
-    </div>
-    <!-- End Landing section -->
-    <!-- start Features -->
-    <div class="features">
-        <div class="container">
-            <div class="feat">
-                <i class="fa-solid fa-wand-magic-sparkles"></i>
-                <h3>Tell Us Your Idea</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum voluptates mollitia reiciendis libero
-                    ratione aut cupiditate eius, sint odit hic !</p>
-            </div>
-            <div class="feat">
-                <i class="fa-regular fa-gem"></i>
-                <h3> We Will Do All The work</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum voluptates mollitia reiciendis libero
-                    ratione aut cupiditate eius, sint odit hic !</p>
-            </div>
-            <div class="feat">
-                <i class="fa-solid fa-globe"></i>
-                <h3>Your Product is Worldwide</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum voluptates mollitia reiciendis libero
-                    ratione aut cupiditate eius, sint odit hic !</p>
+        <div class="overlay"></div>
+        <div class="text">
+            <div class="content">
+                <h2>حابب بجد اشكر حضرتك دكتور محمد عاطف علي المعلومة ال انت قولتهالي من شهرين استفت منها وبجد شكرا واسف علي الاطالة  <br />
+                    We Are Kasper We Make Art.
+                </h2>
+                <p>
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor atsem. Mauris blandit aliquet elit, eget
+                    tincidunt
+                    nibh pulvinar a. curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem. Mauris blandit
+                    aliquet
+                    elit, eget tincidunt.
+                </p>
             </div>
         </div>
+        <i class="fa-solid fa-angle-right change-background fa-2x"></i>
+        <i class="fa-solid fa-angle-left change-background fa-2x"></i>
+        <ul class="bullets">
+            <li></li>
+            <li class="active"></li>
+            <li></li>
+        </ul>
     </div>
-    <!-- End Features -->
-    <!--start Services-->
+    <!--End Landing -->
+    <!-- Start Services-->
     <div class="services" id="services">
         <div class="container">
-            <h2 class="special-heading">Services</h2><!--  الكبيرة الي في المنصف Services الجزءء الخاص بكلمة -->
-            <p>Don't be busy, be productive</p>
-            <div class="services-content">
-                <div class="col">
-                    <!--start Service-->
-                    <div class="srv">
-                        <i class="fa-solid fa-palette"></i>
-                        <div class="text">
-                            <h3>Graphic Design</h3>
-                            <p>Graphic design is the process of visual communication and problem-solving using one or
-                                more of
-                                typography, photography and illustration.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="srv">
-                        <i class="fa-brands fa-sketch"></i>
-                        <div class="text">
-                            <h3> UI & UX</h3>
-                            <p> Process of enhancing user satisfaction width a product by improving the usability,
-                                accessibility, and
-                                pleasure provided in the interaction.
-                            </p>
-                        </div>
-                    </div>
-                    <!--End Service-->
-                </div>
-                <div class="col">
-                    <!--Start Services-->
-                    <div class="srv">
-                        <i class="fa-solid fa-paintbrush"></i>
-                        <div class="text">
-                            <h3> Web Design</h3>
-                            <p> Web design encompasses many different skills and disciplines in the production and
-                                maintenance of
-                                websites
-                            </p>
-                        </div>
-                    </div>
-                    <div class="srv">
-                        <i class="fa-solid fa-pen-ruler"></i>
-                        <div class="text">
-                            <h3>Web Development</h3>
-                            <p>
-                                Web development is a broad term for the work involved in developing a web site for thr
-                                Internet or an
-                                internet.
-                            </p>
-                        </div>
+            <div class="main-heading">
+                <h2>Services</h2>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                    tincidunt.
+                </p>
+            </div>
+            <div class="services-container">
+                <!--  الاول logo الجزء الخاص ب -->
+                <div class="srv-box">
+                    <i class="fa-solid fa-desktop fa-3x"></i>
+                    <div class="text">
+                        <h3>Vorem amet intuitive</h3>
+                        <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit,
+                            eget
+                            tincidunt nibh pulvinar a. Curabitur aliquet quam.
+                        </p>
                     </div>
                 </div>
-                <div class="col">
-                        <img src="images/services.jpg" alt="">
+                <!--  الثاني logo الجزء الخاص ب -->
+                <div class="srv-box">
+                    <i class="fa-solid fa-gears fa-3x"></i>
+                    <div class="text">
+                        <h3>Vorem amet intuitive</h3>
+                        <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit,
+                            eget
+                            tincidunt nibh pulvinar a. Curabitur aliquet quam.
+                        </p>
+                    </div>
+                </div>
+                <!--  الثالث  logo الجزء الخاص ب -->
+                <div class="srv-box">
+                    <i class="fa-solid fa-pen-ruler fa-3x"></i>
+                    <div class="text">
+                        <h3>Vorem amet intuitive</h3>
+                        <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit,
+                            eget
+                            tincidunt nibh pulvinar a. Curabitur aliquet quam.
+                        </p>
+                    </div>
+                </div>
+                <!--  الرابع logo الجزء الخاص ب -->
+                <div class="srv-box">
+                    <i class="fa-regular fa-camera fa-3x"></i>
+                    <div class="text">
+                        <h3>Vorem amet intuitive</h3>
+                        <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit,
+                            eget
+                            tincidunt nibh pulvinar a. Curabitur aliquet quam.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--End Services-->
+    <!-- End Services-->
+    <!--Start Design-->
+    <div class="design">
+        <div class="image">
+            <img src="image/pexels-stefan-coders-1019774-2064586.jpg" alt="logo" width="300" height="300" alt="Mobile" />
+        </div>
+        <div class="text">
+            <h2>Our Design Comes width...</h2>
+            <ul>
+                <li>Responsive Desingn</li>
+                <li>Modern And Clean Design</li>
+                <li>Clean Code</li>
+                <li>Browser Friendly</li>
+            </ul>
+        </div>
+    </div>
+    <!--End Design-->
     <!--Start Portfolio-->
+    <!-- الموجود في بداية كل عنوانComponents الجزء الخاص -->
     <div class="portfolio" id="portfolio">
         <div class="container">
-            <h2 class="special-heading">Portfolio</h2>
-            <p> If you do it right, it will last forever</p>
-            <div class="portfolio-content">
-                <div class="card">
-                    <img src="images/portfolio-1.jpg" alt="">
-                    <div class="info">
-                        <h3>project Here</h3>
-                        <p>My creative ability is very difficult to measure because it can manifest in so many
-                            surprising and.</p>
-                    </div>
+            <div class="main-heading">
+                <h2>Portfolio</h2>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                    tincidunt.
+                </p>
+            </div>
+            <!-- Links الجزء الخاص ب -->
+            <ul class="shuffle">
+                <li class="active">All</li>
+                <li>App</li>
+                <li>Photo</li>
+                <li>Print</li>
+            </ul>
+        </div>
+        <!--الجزء الخاص بالصور-->
+        <div class="imgs-container">
+            <div class="box">
+                <img src="image/1000006503.jpg" alt="logo" width="300" height="300" alt="">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>photography</p>
                 </div>
-                <div class="card">
-                    <img src="images/portfolio-2.jpg" alt="">
-                    <div class="info">
-                        <h3>project Here</h3>
-                        <p>My creative ability is very difficult to measure because it can manifest in so many
-                            surprising and.</p>
-                    </div>
+            </div>
+            <div class="box">
+                <img src="images/shuffle-02.jpg" alt="">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>photography</p>
                 </div>
-                <div class="card">
-                    <img src="images/portfolio-3.jpg" alt="">
-                    <div class="info">
-                        <h3>project Here</h3>
-                        <p>My creative ability is very difficult to measure because it can manifest in so many
-                            surprising and.</p>
-                    </div>
+            </div>
+            <div class="box">
+                <img src="images/shuffle-03.jpg" alt="">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>photography</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/shuffle-04.jpg" alt="">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>photography</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/shuffle-05.jpg" alt="">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>photography</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/shuffle-06.jpg" alt="">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>photography</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/shuffle-07.jpg" alt="">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>photography</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/shuffle-08.jpg" alt="">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>photography</p>
                 </div>
             </div>
         </div>
-        <!--End Portfolio-->
-        <!-- Start About -->
-        <div class="about" id="about">
-            <div class="container">
-                <h2 class="special-heading">About</h2>
-                <p>Less is more work</p>
-                <div class="about-content">
-                    <div class="image">
-                        <img decoding="async" src="images/about.jpg" alt="" />
-                    </div>
+        <a href="#" class="more">More</a>
+    </div>
+    <!--End Portfolio-->
+    <!--Start Video-->
+    <div class="video">
+        <video autoplay muted loop>
+            <source src="images/awesome-video.mp4" type="video/mp4">
+        </video>
+        <div class="text">
+            <h2>Super Awesome video Here</h2>
+            <p>Its All You Need</p>
+            <button>See More</button>
+        </div>
+    </div>
+    <!--End Video-->
+    <!--Start About-->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="main-heading">
+                <h2>About Us</h2>
+                <p>
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor atsem. Mauris blandit aliquet elit, eget
+                    tincidunt.
+                </p>
+            </div>
+            <img src="images/about.png" alt="">
+        </div>
+    </div>
+    <!--End About-->
+    <!--Start Statistics-->
+    <div class="stats">
+        <div class="container">
+            <div class="box">
+                <i class="fa-solid fa-mug-hot"></i>
+                <div class="number">1.236</div>
+                <p>Coffee Drinks</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-folder"></i>
+                <div class="number">256</div>
+                <p>Completed Projects</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-envelope"></i>
+                <div class="number">1,743</div>
+                <p>Mail Sent</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-trophy"></i>
+                <div class="number">17</div>
+                <p>Awards Received</p>
+            </div>
+        </div>
+    </div>
+    <!--End Statistics-->
+    <!--Start Skills-->
+    <div class="our-skills">
+        <!--p , text و الصور و  Testimonials الجزء الخاص بالجزء الشمال الي هو -->
+        <div class="container">
+            <!--  h4 , p الجزء الي فوق  الي علي الشمال الي هو -->
+            <div class="testimonials">
+                <h3>Testimonials</h3>
+                <p>
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor atsem. Mauris blandit aliquet elit, eget
+                    tincidunt.
+                </p>
+                <!--  الي علي الشمال text , p الجزء الخاص بالصور و -->
+                <div class="content">
+                    <img src="images/skills-01.jpg" alt="">
                     <div class="text">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nemo neque voluptate tempora
-                            velit cum non,
-                            fuga vitae architecto delectus sed maxime rerum impedit aliquam obcaecati, aut excepturi
-                            iusto laudantium!
-                        </p>
-                        <hr />
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, sapiente. Velit iure
-                            exercitationem
-                            dolores nesciunt dolore. Eum officiis dolorum hic voluptate quaerat minima, similique
-                            inventore esse,
-                            alias, sed quo officia?
-                        </p>
+                        Curabitur arcu erat, accumsan id imperdiet et, porttitor atsem. Mauris blandit aliquet elit,
+                        eget
+                        tincidunt.
+                        <p>John Doe, CEO</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <img src="images/skills-02.jpg" alt="">
+                    <div class="text">
+                        Curabitur arcu erat, accumsan id imperdiet et, porttitor atsem. Mauris blandit aliquet elit,
+                        eget
+                        tincidunt.
+                        <p>John Doe, CEO</p>
+                    </div>
+                </div>
+                <!-- الجزء الخاص 3 دوائر الي في الاسفل علي الشمال-->
+                <ul class="bullets">
+                    <li></li>
+                    <li class="active"></li>
+                    <li></li>
+                </ul>
+            </div>
+            <!-- our-skills الجزء الخاص بالجهة اليمني -->
+            <div class="skills">
+                <h3>Skills</h3>
+                <p>
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                    tincidunt.
+                </p>
+                <!--الجزء الخاص بالخط الاول -->
+                <div class="prog-holder">
+                    <h4>Adob</h4>
+                    <div class="prog"><!--هو الشريط الرمادي الخلفي.-->
+                        <!-- ده هو البرواز الفاضي للشريط.تقدر تعتبره المستطيل الرمادي اللي هيتملي بعدين.-->
+                        <span style="width: 80%"
+                            data-progress="80%"></span><!-- هو الشريط الملون اللي بيمثل التقدم. span ده هو الجزء الملوّن اللي بيتملي داخل الشريط حسب النسبة (90% هنا). و -->
+                    </div>
+                </div>
+                <!--الجزء الخاص بالخط الثاني -->
+                <div class="prog-holder">
+                    <h4>Html &amp; Css</h4>
+                    <div class="prog">
+                        <span style="width: 90%" data-progress="90%"></span>
+                    </div>
+                </div>
+                <!--الجزء الخاص بالخط الثالث -->
+                <div class="prog-holder">
+                    <h4>JavaScript</h4>
+                    <div class="prog">
+                        <span style="width: 85%" data-progress="85%"></span>
+                    </div>
+                </div>
+                <!--الجزء الخاص بالخط الرابع -->
+                <div class="prog-holder">
+                    <h4>PhP</h4>
+                    <div class="prog">
+                        <span style="width: 90%" data-progress="90%"></span>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- End About -->
-        <!--Start contact-->
-        <div class="contact" id="contact">
-            <div class="container">
-                <h2 class="special-heading">Contact</h2>
-                <p>We are born to create</p>
+    </div>
+    <!--End Skills-->
+    <!--Start Quote-->
+    <div class="quote">
+        <div class="container">
+            <i class="fa-solid fa-quote-left quote-icon"></i> <!-- أيقونة في البداية -->
+            <p class="quote-text">
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                tincidunt
+            </p>
+            <i class="fa-solid fa-quote-right quote-icon"></i> <!-- أيقونة في النهاية -->
+            <span>John Doe</span>
+        </div>
+    </div>
+    <!-- حول النص وسوفتظهر علمتي تنصيص <q> بوضع icon يمكن استبدال -->
+    <!--End Quote-->
+    <!--Start Pricing-->
+    <div class="pricing" id="pricing">
+        <div class="container">
+            <div class="main-heading">
+                <h2>Pricing</h2>
+                <p>
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor atsem. Mauris blandit aliquet elit, eget
+                    tinci
+                </p>
+            </div>
+            <div class="plans">
+                <div class="plan">
+                    <div class="head">
+                        <h3>Basic</h3>
+                        <span>19</span>
+                    </div>
+                    <ul>
+                        <li>Feature No 1</li>
+                        <li>Extra Feature</li>
+                        <li>Extra Feature No 2</li>
+                        <li>Feature</li>
+                    </ul>
+                    <div class="foot">
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+                <div class="plan">
+                    <div class="head">
+                        <h3>Premium</h3>
+                        <span>29</span>
+                    </div>
+                    <ul>
+                        <li>Feature No 1</li>
+                        <li>Extra Feature</li>
+                        <li>Extra Feature No 2</li>
+                        <li>Feature</li>
+                    </ul>
+                    <div class="foot">
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+                <div class="plan">
+                    <div class="head">
+                        <h3>Pro</h3>
+                        <span>39</span>
+                    </div>
+                    <ul>
+                        <li>Feature No 1</li>
+                        <li>Extra Feature</li>
+                        <li>Extra Feature No 2</li>
+                        <li>Feature</li>
+                    </ul>
+                    <div class="foot">
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+                <div class="plan">
+                    <div class="head">
+                        <h3>Platinum</h3>
+                        <span>19</span>
+                    </div>
+                    <ul>
+                        <li>Feature No 1</li>
+                        <li>Extra Feature</li>
+                        <li>Extra Feature No 2</li>
+                        <li>Feature</li>
+                    </ul>
+                    <div class="foot">
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <p class="contact-text">Contact us if you have special request</p>
+            <a href="#" class="contact-link">Contact us </a>
+        </div>
+    </div>
+    <!--End Pricing-->
+    <!--Start Subscribe-->
+    <div class="subscribe">
+        <div class="container">
+            <form action="">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" name="email" placeholder="Your Email">
+                <input type="submit" value="Subscribe">
+            </form>
+            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor atsem. Mauris blandit aliquet elit, eget
+                tincidunt.</p>
+        </div>
+    </div>
+    <!--End Subscribe-->
+    <!--Start Contact Us-->
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="main-heading">
+                <h2>Contact Us</h2>
+                <p>
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor atsem. Mauris blandit aliquet elit, eget
+                    tincidunt.
+                </p>
+            </div>
+            <div class="content">
+                <form action=""><!--العنصر اللي بيحتوي على كل الحقول.-->
+                    <input class="main-input" type="text" name="name"
+                        placeholder="Your Name" /><!--حقل لإدخال اسم المستخدم.-->
+                    <input class="main-input" type="email" name="mail" placeholder="Your Email" />
+                    <textarea class="main-input" name="message"
+                        placeholder="Your Message"></textarea><!--عنصر لكتابة الرسالة.-->
+                    <input type="submit" value="Send message" />
+                </form>
                 <div class="info">
-                    <p class="label">Feel free to drop us a line at:</p>
-                    <a href="mailot:leonagency@mail.com?subject=Contact" class="link">leonagency@mail.com</a>
-                    <div class="social">
-                        find Us On Social Networks
-                        <i class="fa-brands fa-youtube"></i>
-                        <i class="fa-brands fa-facebook"></i>
-                        <i class="fa-brands fa-square-twitter"></i>
-                    </div>
+                    <h4>Get In Touch</h4>
+                    <span class="phone">+00 123.456.789</span>
+                    <span class="phone">+00 123.456.789</span>
+                    <h4>Where We Are</h4>
+                    <address>
+                        Awesome Address 17 <br />New York, NYC<br /> 123-4567-890<br />USA
+                    </address>
                 </div>
             </div>
         </div>
-        <!--End contact-->
-        <!--Start Footer-->
-        <div class="footer">
-            <div class="footer"> &copy; 2025 <span>Leon</span> All Right Reserved</div>
+    </div>
+    <!--End Contact Us-->
+    <!--Start Footer-->
+    <div class="footer">
+        <div class="container">
+            <img src="images/logo.png" alt="Logo" />
+            <p>We Are Social</p>
+            <div class="social-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-solid fa-house"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p class="copyright">&copy; 2025<span>Kasper</span> All right reserved</p>
         </div>
-        <!--End Footer-->
+    </div>
+    <!--End Footer-->
 </body>
 
 </html>
